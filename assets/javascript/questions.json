@@ -1,0 +1,163 @@
+{ var questions = [
+{
+	"question": "Which cartoon character is closest related to Tyrannosaurus?",
+	"a": ["Bugs Bunny", false],
+	"b": ["Porky Pig", false],
+	"c": ["Daffy Duck", true],
+	"d": ["Wile E. Coyote", false],
+	"image": "Daffy_Duck.png"
+},
+{
+	"question": "Which of these creatures appeared earliest?",
+	"a": ["Trilobite", true],
+	"b": ["Pterodactyl", false],
+	"c": ["Mammoth", false],
+	"d": ["Beetle", false],
+	"image": "isotelus.jpg"
+},
+{
+	"question": "Which dinosaur had a row of plates along its back?",
+	"a": ["Triceratops", false],
+	"b": ["Allosaurus", false],
+	"c": ["Plateosaurus", false],
+	"d": ["Stegosaurus", true],
+	"image": "stegosaurus.jpg"
+},
+{
+	"question": "Which plesiosaur has an intact skeleton on display at Harvard?",
+	"a": ["Elasmosaurus", false],
+	"b": ["Cryptoclidus", false],
+	"c": ["Kronosaurus", true],
+	"d": ["Liopleurodon", false],
+	"image": "kronosaurus.jpg"
+},
+{
+	"question": "What kind of reptile was the Mosasaurus in <em>Jurassic World</em>?",
+	"a": ["Turtle", false],
+	"b": ["Crocodile", false],
+	"c": ["Dinosaur", false],
+	"d": ["Lizard", true],
+	"image": "mosasaur-front.jpg"
+},
+{
+	"question": "What kind of dinosaur evolved into the spacefaring Voth in <em>Star Trek: Voyager</em>?",
+	"a": ["Hadrosaur (Duckbill)", true],
+	"b": ["Ceratopsid", false],
+	"c": ["Sauropod", false],
+	"d": ["Raptor", false],
+	"image": "voth.jpg"
+},
+{
+	"question": "From what Native American language does the pterodactyl name <em>Quetzalcoatlus</em> come?",
+	"a": ["Apache", false],
+	"b": ["Aztec", true],
+	"c": ["Maya", false],
+	"d": ["Mohawk", false],
+	"image": "quetzalcoatl.jpg"
+},
+{
+	"question": "What creature is closest related to <em>Orthoceras</em>?",
+	"a": ["Snail", false],
+	"b": ["Horseshoe crab", false],
+	"c": ["Starfish", false],
+	"d": ["Squid", true],
+	"image": "orthoceras.jpg"
+},
+{
+	"question": "From what time epoch come Dire Wolves and Wooly Mammoths, seen in <em>Game of Thrones</em>?",
+	"a": ["Eocene", false],
+	"b": ["Oligocene", false],
+	"c": ["Pleistocene", true],
+	"d": ["Miocene", false],
+	"image": "mammoth.jpg"
+},
+{
+	"question": "Which of these dinosaurs has a skull on display at the University of Texas' Texas Memorial Museum?",
+	"a": ["Brachiosaurus", false],
+	"b": ["Tyrannosaurus", true],
+	"c": ["Velociraptor", false],
+	"d": ["Styracosaurus", false],
+	"image": "tyrannosaurus-montana.jpg"
+},
+{
+	"question": "What does <em>Ichthyosaurus</em> mean?",
+	"a": ["Fish lizard", true],
+	"b": ["Wing lizard", false],
+	"c": ["Terrible lizard", false],
+	"d": ["Giraffe lizard", false],
+	"image": "ichthyosaur.jpg"
+},
+{
+	"question": "Paleontologist Dale Russell once speculated how the Troodon dinosaur might have looked today had it not gone extinct. What did it resemble?",
+	"a": ["Serpent", false],
+	"b": ["Penguin", false],
+	"c": ["Kangaroo", false],
+	"d": ["Human", true],
+	"image": "dinosauroid.jpg"
+},
+{
+	"question": "In <em>Babylon 5</em>, what feature will appear in human evolution a million years from now?",
+	"a": ["Energy bodies", true],
+	"b": ["Enlarged heads", false],
+	"c": ["Six fingers per hand", false],
+	"d": ["A third eye", false],
+	"image": "ironheart.jpg"
+},
+{
+	"question": "What is the state fossil of California?",
+	"a": ["Ground sloth", false],
+	"b": ["Mastodon", false],
+	"c": ["Sabretooth cat", true],
+	"d": ["Cave bear", false],
+	"image": "smilodon.jpg"
+},
+{
+	"question": "The <em>Tiktaalik</em> of Greenland suggests what kind of evolutionary link?",
+	"a": ["Hominids to humans", false],
+	"b": ["Fish to land creatures", true],
+	"c": ["Trilobites to cockroaches", false],
+	"d": ["Dinosaurs to mammals", false],
+	"image": "tiktaalik.jpg"
+},
+{
+	"question": "How long was <em>Jaekelopterus</em>, the largest sea scorpion?",
+	"a": ["8 inches", false],
+	"b": ["2 feet", false],
+	"c": ["4 feet", false],
+	"d": ["8 feet", true],
+	"image": "Jaekelopterus.jpg"
+},
+{
+	"question": "What distinguished the body of <em>Diplocaulus</em>?",
+	"a": ["A boomerang-shaped head", true],
+	"b": ["Two parallel tails", false],
+	"c": ["A tall back sail", false],
+	"d": ["A neck longer than body and tail combined", false],
+	"image": "diplocaulus.jpg"
+},
+{
+	"question": "What is Texas' state fossil?",
+	"a": ["Dimetrodon", false],
+	"b": ["Pteranodon", false],
+	"c": ["Paluxysaurus", true],
+	"d": ["Apatosaurus", false],
+	"image": "paluxysaurus.jpg"
+},
+{
+	"question": "What period is named after a part of Texas?",
+	"a": ["Devonian", false],
+	"b": ["Permian", true],
+	"c": ["Jurassic", false],
+	"d": ["Ordovician", false],
+	"image": "dimetrodon.jpg"
+},
+{
+	"question": "Inspired by the <em>Harry Potter</em> series, what kind of creature was classified <em>Dracorex hogwartsia</em>?",
+	"a": ["Bird", false],
+	"b": ["Dragonfly", false],
+	"c": ["Salamander", false],
+	"d": ["Dinosaur", true],
+	"image": "dracorex.jpg"
+}
+]
+}
